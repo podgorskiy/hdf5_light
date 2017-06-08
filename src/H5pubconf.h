@@ -48,7 +48,9 @@
 #ifndef __APPLE__
 #define H5_HAVE_SYS_SYSINFO_H
 #endif
+#ifndef __linux__
 #define H5_HAVE_SYS_PROC_H
+#endif
 #define H5_HAVE_DIRENT_H
 #define H5_HAVE_DLFCN_H
 #endif
