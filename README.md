@@ -9,6 +9,7 @@
   * GNU Linux with GCC
   * OS X with clang
  * Provided pregenerated *H5Tinit.c* *H5lib_settings.c*
+ * Only C library, without wrappers.
  * Compiled as static library
  
  For more information read [README.txt](https://github.com/podgorskiy/hdf5_light/blob/master/README.txt) and visit https://support.hdfgroup.org/HDF5/
