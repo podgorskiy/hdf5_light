@@ -1,5 +1,7 @@
 # HDF5 light
 
+[![Build Status](https://travis-ci.org/podgorskiy/hdf5_light.svg?branch=master)](https://travis-ci.org/podgorskiy/hdf5_light)
+
 ## HDF5 version 1.10.1 
 ## A mirror of HDF5 library from https://support.hdfgroup.org/HDF5/ , with the following modifications:
 
