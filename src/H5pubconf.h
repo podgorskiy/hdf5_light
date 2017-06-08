@@ -36,6 +36,7 @@
 #define H5_HAVE_WINSOCK2_H
 #define H5_HAVE_VISUAL_STUDIO
 #define H5_HAVE_WIN_THREADS
+#define H5_HAVE_IO_H
 #else
 #define H5_HAVE_PTHREAD_H
 #define H5_HAVE_FLOCK
@@ -44,9 +45,12 @@
 #define H5_HAVE_SYS_FILE_H
 #define H5_HAVE_SYS_RESOURCE_H
 #define H5_HAVE_SYS_IOCTL_H
+#ifndef __APPLE__
 #define H5_HAVE_SYS_SYSINFO_H
+#endif
 #define H5_HAVE_SYS_PROC_H
-#define H5_HAVE_SYS_PROC_H
+#define H5_HAVE_DIRENT_H
+#define H5_HAVE_DLFCN_H
 #endif
 
 #define H5_CXX_HAVE_OFFSETOF
@@ -62,7 +66,6 @@
 #define H5_HAVE_SYS_TYPES_H
 #define H5_HAVE_SYS_STAT_H
 #define H5_HAVE_STRDUP
-#define H5_HAVE_IO_H
 #define H5_HAVE_GETHOSTNAME
 
 #if defined _WIN32
@@ -97,6 +100,10 @@
 
 #define H5_PRINTF_LL_WIDTH "lld"
 
+#if defined _WIN32
 #define H5_DEFAULT_PLUGINDIR "%ALLUSERSPROFILE%\\\\hdf5\\\\lib\\\\plugin"
+#else
+#define H5_DEFAULT_PLUGINDIR "/usr/local/hdf5/lib/plugin"
+#endif
 
 #endif
