@@ -11,5 +11,5 @@
  * Provided pregenerated *H5Tinit.c* *H5lib_settings.c*
  * Compiled as static library
  
- For more information read [H5pubconf.h](https://github.com/podgorskiy/hdf5_light/blob/master/README.txt) and visit https://support.hdfgroup.org/HDF5/
+ For more information read [README.txt](https://github.com/podgorskiy/hdf5_light/blob/master/README.txt) and visit https://support.hdfgroup.org/HDF5/
  
