@@ -30,6 +30,9 @@
 
 #define H5_HAVE_THREADSAFE
 
+#define H5_HAVE_FILTER_DEFLATE
+#define H5_HAVE_ZLIB_H
+
 #if defined _WIN32
 #define H5_HAVE_WINDOWS
 #define H5_HAVE_WIN32_API
