@@ -840,8 +840,8 @@ set (H5_GENERATED_HEADERS
 #if (MSVC OR MINGW)
 #  target_link_libraries (H5make_libsettings "ws2_32.lib")
 #endif ()
-if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-   	set (CMAKE_CXX_FLAGS "-fPIC ${CMAKE_CXX_FLAGS}")
+if (CMAKE_C_COMPILER_ID STREQUAL "GNU")
+   	set (CMAKE_C_FLAGS "-fPIC ${CMAKE_C_FLAGS}")
 endif ()
 	
 #-----------------------------------------------------------------------------
